@@ -1,0 +1,11 @@
+# iMTED AI Energy Assistant
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+# Sitemaps
+Sitemap: https://imted-ai.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
