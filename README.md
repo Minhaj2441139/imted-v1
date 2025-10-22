@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# iMTED - AI Energy Assistant
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![iMTED Logo](https://via.placeholder.com/200x80/00D9A3/FFFFFF?text=iMTED)
 
+**Simple, Reliable & Efficient**
+
+*Maximum efficiency with minimum effort!*
+
+
+</div>
+
+---
+
+## 📋 About
+
+AI-powered energy management platform helping buildings achieve carbon neutrality through intelligent monitoring, forecasting, and optimization.
+
+### Key Features
+
+- 🔍 Real-time energy monitoring with AI insights
+- 📊 Demand forecasting and predictive analytics
+- ⚠️ Anomaly detection for sensors and equipment
+- 💰 Spot market access for renewable energy
+- 📝 Automated customizable reporting
+- 💡 Up to 20% cost reduction
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 14+** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Smooth animations
+- **Supabase** - Database and blog system
+
+---
+
+## 🚀 Quick Start
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone repository
+git clone https://github.com/Minhaj2441139/imted-v1.git
+cd imted-v1
+
+# Install dependencies
+pnpm install
+
+# Set up environment variables
+cp .env.example .env.local
+
+# Run development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
+```
+imted-website/
+├── app/                    # Next.js App Router
+│   ├── (pages)/           # Page routes
+│   └── api/               # API endpoints
+├── components/            # React components
+│   ├── ui/               # Reusable UI components
+│   ├── layout/           # Header, Footer, Navigation
+│   └── home/             # Homepage sections
+├── lib/                  # Utilities and helpers
+├── types/                # TypeScript definitions
+├── public/               # Static assets
+└── styles/               # Global styles
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Development
+```bash
+pnpm dev          # Start dev server
+pnpm build        # Build for production
+pnpm lint         # Run ESLint
+pnpm format       # Format with Prettier
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design System
 
-## Deploy on Vercel
+### Colors
+- **Primary**: `#00D9A3` (Green)
+- **Dark**: `#0A0E12` (Background)
+- **Text**: `#FFFFFF` (Primary)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Typography
+- **Headings**: Inter Bold
+- **Body**: Inter Regular
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Style
+Semi-flat glassmorphism with green/dark theme
+
+---
+
+## 👥 Team
+
+**Asheka Arafa** - Co-founder & CEO  
+**Shahnewaz Shuva** - Co-founder & CTO  
+**Sagar Shahriar** - Full Stack Developer
+
+---
+
+## 📞 Contact
+
+**Email**: asheka.arafa@imted-ai.com  
+**Website**: [imted-ai.com](https://imted-ai.com)
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE)
+
+---
+
+<div align="center">
+
+**⭐ Star us on GitHub!**
+
+© 2024 iMTED. All rights reserved.
+
+</div>
