@@ -7,9 +7,9 @@ import { blogPosts } from "@/lib/blog-data"
 import { Calendar, User, Clock, ArrowLeft, Share2, Tag } from "lucide-react"
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export default function BlogPostPage({ params }: BlogPostPageProps) {
