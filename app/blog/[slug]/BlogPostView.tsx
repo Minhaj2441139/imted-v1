@@ -3,9 +3,10 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Calendar, User, Clock, ArrowLeft, Share2, Tag } from "lucide-react"
+import type { BlogPost } from "@/lib/blog-data"
 
 type Post = {
-  id: number
+  id: string
   slug: string
   title: string
   author: string
